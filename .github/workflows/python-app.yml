@@ -32,5 +32,6 @@ jobs:
 
             # Step 4: Run tests
             - name: Run tests
-              run: pytest
+              run: PYTHONPATH=. pytest tests -v
+
               
